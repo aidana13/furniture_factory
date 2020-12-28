@@ -1,0 +1,62 @@
+.navbar {
+  background-color: #ffffff;
+  overflow: hidden;
+  color: #000000;
+}
+.navbar a {
+  float: left;
+  color: #8B4513;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navbar a:hover {
+  background-color: #FFDEAD;
+  color: white;
+}
+.navbar a:active {
+  background-color: #8B4513;
+  color: black;
+}
+.menu {
+  overflow: hidden;
+  color: #000000;
+}
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: grey;
+}
+.container{
+  text-align: justify;
+  padding: 50px 50px;
+  background-color: #F5DEB3;
+}
+
+.image {
+  position  : relative;
+  width   : 100%;
+}
+h1.ban {
+  position  : absolute;
+  top   : 200px;
+  width   : 100%;
+  font: small-caps bold 40pt 'Arial', serif; 
+  color: white;
+  background    : rgba(0, 0, 0, 0.7);
+}
+footer {
+  padding: 30px;
+  background: #DEB887;
+}
+.but {
+  border:none;
+  cursor: pointer;
+  background-color: #F5DEB3;
+}
